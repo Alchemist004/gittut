@@ -1,0 +1,42 @@
+Git
+
+git init - initializing a git repository
+
+
+git status - To know the status
+
+
+git add filename.extension - to put up filename for tracking.
+
+git rm -r --cached . - to remove all files from tracking.
+
+git rm --cached filename - to remove filename from tracking.
+
+
+git commit -m "message" - commiting the files, the message is shown after commiting. 
+eg git add filename.extension
+   git commit -m "I have made changes to filename"
+
+
+git push - pushes all the tracked files to the github repositories.
+
+
+git push -u origin branchname  - pushing the code to the github repository in branchname branch
+
+there are two major branches 
+	- main - github repository
+	- master - local repository
+
+git branch newbranchname - to create a new branch
+
+git checkout newbranchname - switch from the major branch to newbranchname branch
+
+git clone http - clones the github repository in the local folder.
+
+git pull - gets the latest version of the code from github repository to the local repository and merges them together.
+ 
+git fetch - downloads the code from the github repository.
+
+git merge - merges the code from github repository in local reposiroty
+
+git pull = git fetch + git merge
